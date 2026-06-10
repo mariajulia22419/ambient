@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f4;
+}
+
+/* CABEÇALHO */
+header {
+    background: #1b3d2f;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+}
+
+/* MENU LATERAL */
+.sidebar {
+    width: 230px;
+    background: white;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar h3 {
+    color: #1b3d2f;
+}
+
+.sidebar a {
+    display: block;
+    padding: 8px;
+    color: #1b6b4a;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* CONTEÚDO */
+.content {
+    flex: 1;
+    background: white;
+    padding: 25px;
+}
+
+.title {
+    font-size: 30px;
+    color: #1b3d2f;
+}
+
+/* INFOBOX */
+.infobox {
+    float: right;
+    width: 260px;
+    border: 1px solid #ccc;
+    background: #f9fff9;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.infobox img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* SEÇÕES */
+.section {
+    margin-top: 25px;
+}
+
+.section h3 {
+    color: #1b3d2f;
+}
+
+/* BOTÃO */
+button {
+    background: #1b6b4a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #145239;
+}
+
+/* RODAPÉ */
+footer {
+    background: #1b3d2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
